@@ -5,6 +5,10 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    background-color: rgb(29, 29, 29);
+    color: rgb(255, 255, 255);
+}
 /*  */
 /* header */
 /*  */
@@ -28,6 +32,7 @@ li{
     padding: 10px;
 }
 a{
+    color: white;
     text-decoration: none;
 }
 .hover:hover{
@@ -69,7 +74,19 @@ a{
 .para{
     padding: 20px;
 }
-/* .para p{
+
+
+/*  */
+/* social-cont */
+/*  */
+
+#social-cont{
     margin: auto;
-    text-align: center;
-} */
+    display: flex;
+    padding: 300px;
+}
+
+#doomtree{
+    display: flex;
+}
+
